@@ -36,7 +36,7 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_8bezxog', 'template_jmsk313', form.current, 'knwNTK4YU4K30HYMd')
+    emailjs.sendForm('service_rmtohlb', 'template_mdnjfy9', form.current, 'eTxTte996wxPAxCCX')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -91,11 +91,11 @@ export const Contact = () => {
                 />
                 <button type="submit" value="Send" className="submit-btn">
                 <i className="fas fa-terminal"></i>
-                  <Typography component='span'> Send Message</Typography>
+                  <Typography style={{ fontFamily: 'NovaSquare-Regular' }} component='span'> Send Message</Typography>
                 </button>
               </form>
             </div>
-            <h1 className="contact_msg">
+            <h1 className="contact_msg" style={{ fontFamily: 'NovaSquare-Regular' }}>
               <TextDecrypt text={greetings}/>
             </h1>
           </div>

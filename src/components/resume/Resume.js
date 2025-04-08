@@ -30,13 +30,13 @@ export const Resume = () => {
     <Link
       color='inherit'
       underline='none'
-      href= {`${ResumePDF}`}
+      href= 'https://drive.google.com/file/d/1YKP_Z2FSC-RsQYCkpYEysSgAwEPbuErc/view?usp=drive_link'
       target='_blank'
       rel='noopener noreferrer'
       className={classes.footerText}
     >
       <ResumeIcon />
-      <Typography component='span'>
+      <Typography style={{  fontFamily: "NovaSquare-Regular"}} component='span'>
         <TextDecrypt text={' Resume'} />
       </Typography>
     </Link>

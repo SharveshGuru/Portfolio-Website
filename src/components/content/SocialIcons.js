@@ -42,7 +42,7 @@ export const SocialIcons = () => {
           aria-label={socialItem.network}
           className={classes.iconButton}
         >
-          <i className={`${classes.icon} ${socialItem.x_icon}`}></i>
+          <i className={`${classes.icon} ${socialItem.x_icon === 'fab fa-solid fa-envelope' ? 'fas fa-envelope' : socialItem.x_icon}`}></i>
         </IconButton>
       </Tooltip>
     </Link>

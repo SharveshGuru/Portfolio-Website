@@ -9,10 +9,8 @@ import './Works.css';
 
 // Import ../../assets/recentprojects/
 import Portfolio from '../../assets/recentprojects/react-portfolio.png';
-import Veritru from '../../assets/recentprojects/veritru.png';
-import Lofo from '../../assets/recentprojects/lofo.png';
-import Startup from '../../assets/recentprojects/startup.png';
-import Lacalle from '../../assets/recentprojects/lacalle.png';
+import BrightFeed from '../../assets/recentprojects/brightfeed.png';
+import HappyEstates from '../../assets/recentprojects/happyestates.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -27,46 +25,26 @@ export const Works = () => {
   const [projects, setProjects] = useState([
     { 
       id: 1,
-      title: 'React Portfolio', 
-      description: `Designed and developed a ReactJS portfolio 
-      with fancy 3D animations using Three.js for 
-      the background element.`,
-      alter: 'React Portfolio',
-      image: `${Portfolio}`,
+      title: 'Happy Estates', 
+      description: `Developed a Real Estate Management System with ReactJS and Spring Boot to streamline property rental for owners and tenants. Implemented JWT authentication and RBAC using Spring Security for secure user access. Utilized Spring JPA for efficient database interactions with MySQL. The platform allows seamless property listing, rental, and management.`,
+      alter: 'Happy Estates',
+      image: `${HappyEstates}`,
     },
     { 
       id: 2,
-      title: 'VeriTru Project', 
-      description: `An advocacy project website built using
-      MEAN stack with fact-checking tool to promote actions against
-      fake news.`,
-      alter: 'VeriTru Project',
-      image: `${Veritru}`,
+      title: 'Happy Estates', 
+      description: `Developed an automated system that extracts real-time news from NDTV’s Top Feed RSS, analyzes sentiment to filter positive news, and summarizes articles. The system generates a professionally formatted PDF newsletter, reducing manual curation time. It provides users with an engaging and easily accessible summary of positive news.`,
+      alter: 'Happy Estates',
+      image: `${BrightFeed}`,
     },
     { 
       id: 3,
-      title: 'LoFo Project', 
-      description: `Logistics and Forwarding website built using
-      ReactJS to design and develop its front-end.`,
-      alter: 'LoFo Project',
-      image: `${Lofo}`,
-    },
-    { 
-      id: 4,
-      title: 'Startup Project', 
-      description: `A website portfolio project for the Startup Dev Team
-      built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
-      alter: 'Startup Project',
-      image: `${Startup}`,
-    },
-    { 
-      id: 5,
-      title: 'LaCalle Cafe', 
-      description: `A website project for the La Calle Cafe business
-      built using Wordpress and PHP with integrated SEO tools to help
-      the business ramp up its prospects and lead generation.`,
-      alter: 'Startup Project',
-      image: `${Lacalle}`,
+      title: 'Portfolio Website', 
+      description: `Developed a ReactJS portfolio 
+      with fancy 3D animations using Three.js for 
+      the background element. Inspired by Mark Tan.`,
+      alter: 'Portfolio Website',
+      image: `${Portfolio}`,
     },
   ]);
 

@@ -1,12 +1,12 @@
 {
     "basics": {
-        "name": "Mark Tan",
+        "name": "S Sharvesh Guru",
         "label": "Web Developer",
-        "email": "markcmtan@gmail.com",
+        "email": "sharveshguru2004@gmail.com",
         "phone": "(XXX) XXX-XXXX",
         "picture": "mt.png",
         "x_title": "Hello, I'm",
-        "job1": "Web",
+        "job1": "Software",
         "job2": "Developer",
         "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
         "summary": "based in Angeles, Philippines.",
@@ -15,47 +15,35 @@
         "location": {
             "address": "XX XXXXXstreet",
             "postalCode": "XXXXX",
-            "city": "Angeles",
-            "country": "Philippines",
-            "countryCode": "PH",
-            "region": "Pampanga"
+            "city": "Chennai",
+            "country": "India",
+            "countryCode": "",
+            "region": ""
         },
         "profiles": [
             {
                 "network": "Google",
-                "username": "markcmtan@gmail.com",
-                "url": "mailto:markcmtan@gmail.com",
-                "x_icon": "fab fa-google"
+                "username": "sharveshguru2004@gmail.com",
+                "url": "mailto:sharveshguru2004@gmail.com",
+                "x_icon": "fab fa-solid fa-envelope"
             },
             {
                 "network": "LinkedIn",
-                "username": "mcmtan",
-                "url": "https://www.linkedin.com/in/mcmtan/",
+                "username": "S Sharvesh Guru",
+                "url": "https://www.linkedin.com/in/sharveshguru/",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
-                "username": "taniyow",
-                "url": "https://github.com/taniyow",
+                "username": "SharveshGuru",
+                "url": "https://github.com/SharveshGuru",
                 "x_icon": "fab fa-github"
             },
             {
-                "network": "GitLab",
-                "username": "taniyow",
-                "url": "https://gitlab.com/taniyow",
-                "x_icon": "fab fa-gitlab"
-            },
-            {
-                "network": "Telegram",
-                "username": "marktaniyow",
-                "url": "https://t.me/marktaniyow",
-                "x_icon": "fab fa-telegram-plane"
-            },
-            {
-                "network": "Discord",
-                "username": "taniyow#9142",
-                "url": "https://discord.com",
-                "x_icon": "fab fa-discord"
+                "network": "Instagram",
+                "username": "sharvesh_guru",
+                "url": "https://www.instagram.com/sharvesh_guru/",
+                "x_icon": "fab fa-instagram"
             }
         ]
     },

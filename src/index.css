@@ -32,3 +32,15 @@ p {
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
 }
+@font-face {
+  font-family: "Gistesy";
+  src: local("Gistesy"),
+   url("./fonts/HolidayFree/HolidayFree.otf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "NovaSquare-Regular";
+  src: local("NovaSquare-Regular"),
+   url("./fonts/Nova_Square/NovaSquare-Regular.ttf") format("truetype");
+  font-weight: bold;
+}
