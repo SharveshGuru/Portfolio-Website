@@ -16,20 +16,29 @@ export const SideNavbar = () => {
           offsetTop: section.offsetTop,
         }))
       ];
-
-      const scrollPosition = window.scrollY + 200; // Adjust offset as needed
-
+  
+      const scrollPosition = window.scrollY + window.innerHeight;
+      const pageHeight = document.documentElement.scrollHeight;
+  
+      // If scrolled to bottom, activate last section
+      if (Math.abs(scrollPosition - pageHeight) < 5) {
+        setActiveNav(sections[sections.length - 1].id);
+        return;
+      }
+  
+      // Otherwise, check scroll position normally
       for (let i = sections.length - 1; i >= 0; i--) {
-        if (scrollPosition >= sections[i].offsetTop) {
+        if (window.scrollY + 200 >= sections[i].offsetTop) {
           setActiveNav(sections[i].id);
           break;
         }
       }
     };
-
+  
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+  
 
   return (
     <nav>
