@@ -7,7 +7,7 @@ A Portolio Website created using ReactJs and MaterialUI. View demo [here](https:
 -   styled with [Material-UI](https://material-ui.com)
 -   deployed on [Netlify](https://www.netlify.com/)
 
-Special thanks to [Mark Christian Tan](https://github.com/taniyow) [Jo Lienhoop](https://github.com/JoHoop), and [Cody Bennett](https://github.com/CodyJasonBennett) for the inspiration.
+Special thanks to [Mark Christian Tan](https://github.com/taniyow), [Jo Lienhoop](https://github.com/JoHoop), and [Cody Bennett](https://github.com/CodyJasonBennett) for the inspiration.
 
 ## Features
 
