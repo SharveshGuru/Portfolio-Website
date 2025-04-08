@@ -32,8 +32,8 @@ export const Works = () => {
     },
     { 
       id: 2,
-      title: 'Happy Estates', 
-      description: `Developed an automated system that extracts real-time news from NDTV’s Top Feed RSS, analyzes sentiment to filter positive news, and summarizes articles. The system generates a professionally formatted PDF newsletter, reducing manual curation time. It provides users with an engaging and easily accessible summary of positive news.`,
+      title: 'BrightFeed', 
+      description: `Developed an automated system that extracts real-time news from NDTV's Top Feed RSS, analyzes sentiment to filter positive news, and summarizes articles. The system generates a professionally formatted PDF newsletter, reducing manual curation time. It provides users with an engaging and easily accessible summary of positive news.`,
       alter: 'Happy Estates',
       image: `${BrightFeed}`,
     },
@@ -41,8 +41,8 @@ export const Works = () => {
       id: 3,
       title: 'Portfolio Website', 
       description: `Developed a ReactJS portfolio 
-      with fancy 3D animations using Three.js for 
-      the background element. Inspired by Mark Tan.`,
+      with fancy 3D animations using React.js and Three.js for 
+      the background element. The design of the website is inspired by Mark Tan.`,
       alter: 'Portfolio Website',
       image: `${Portfolio}`,
     },
@@ -50,7 +50,7 @@ export const Works = () => {
 
   return (
     <section id="works">
-      <Container component="main" className={classes.main} maxWidth="md">
+      <Container component="main" style={{  fontFamily: "NovaSquare-Regular"}} className={classes.main} maxWidth="md">
         {projects.map((project) => (
           <div className="project" key={ project.id }>
             <div className="__img_wrapper">
@@ -58,7 +58,7 @@ export const Works = () => {
             </div>
             <div className="__content_wrapper">
               <h3 className="title">
-                <TextDecrypt text={ project.id + '. ' + project.title } />
+                {project.id + '. ' + project.title }
               </h3>
               <p className="description">
                 { project.description }

@@ -12,7 +12,6 @@ import { SideNavbar } from '../components/nav/SideNavbar';
 import { Works } from '../components/works/Works';
 import { About } from '../components/about/About';
 import { Contact } from '../components/contact/Contact';
-
 const useStyles = makeStyles(() => ({
   root: {
     display: 'flex',
