@@ -38,6 +38,18 @@
   font-size: 1rem;
   width: 60%;
 }
+.github-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #3f84c8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.github-link:hover {
+  color: #1e5387;
+}
+
 @media (max-width: 1024px) {
   .project {
     margin-left: 3rem;
